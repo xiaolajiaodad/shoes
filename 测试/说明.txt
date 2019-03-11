@@ -1,0 +1,9 @@
+环境：python3 linux Mysql 
+
+api:
+getusershoes/(\d*)
+updateusershoes/
+
+数据库：
+create database shoes;
+

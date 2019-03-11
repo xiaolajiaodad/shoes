@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>鞋子</title>
+</head>
+<body>
+    <form action="/updateusershoes/" method="post">
+        {% csrf_token %}
+        <div>
+            <p>name</p>
+            <input type="test" name="name">
+        </div>
+        <div>
+            <p>phone</p>
+            <input type="test" name="phone">
+        </div>
+        <div>
+            <p>size</p>
+            <input type="test" name="size">
+        </div>
+        <div>
+            <p>color</p>
+            <input type="test" name="color">
+        </div>
+        <div>
+            <input type="submit" value="注册">
+        </div>
+    </form>
+</body>
+</html>
